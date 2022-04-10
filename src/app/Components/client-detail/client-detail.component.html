@@ -1,0 +1,31 @@
+<div class="container">
+ <div *ngIf="client" class="form-container">
+
+    
+    <mat-form-field appearance="outline">
+        <mat-label>Enter First Name</mat-label>
+        <input matInput [(ngModel)] = "client.fName" id="fName" name="fName"> 
+    </mat-form-field>
+   
+  <mat-form-field appearance="outline">
+    <mat-label>Enter Last Name</mat-label>
+    <input matInput [(ngModel)] = "client.lName" id="lName" name="lName">
+  </mat-form-field>
+
+
+
+    <mat-form-field appearance="standard">
+        <mat-label>Enter Date of Birth</mat-label>
+        <input matInput [matDatepicker]="picker"  [(ngModel)] = "client.doB" id="doB" name="doB" >
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+  
+
+  <mat-form-field appearance="outline">
+    <mat-label>Enter Address</mat-label>
+    <input matInput [(ngModel)] ="client.address" id="address" name="address">
+  </mat-form-field>
+  <p><button type="button" mat-raised-button color="primary" (click)="goBack()" >Back</button> 
+  <button type="button" mat-raised-button color="primary" (click)="save()">Update</button></p>
+</div>

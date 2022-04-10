@@ -1,0 +1,53 @@
+{
+  "clients": [
+    {
+      "fName": "Umar",
+      "lName": "Aliyu",
+      "doB": "2022-03-18T07:00:00.000Z",
+      "address": "Kofar Bai",
+      "id": 1
+    },
+    {
+      "fName": "Sani",
+      "lName": "DanKasuwa",
+      "doB": "1994-02-08T08:00:00.000Z",
+      "address": "Kerau",
+      "id": 2
+    },
+    {
+      "fName": "Aliyu",
+      "lName": "Isa",
+      "doB": "1992-04-01T08:00:00.000Z",
+      "address": "Kaduna",
+      "id": 3
+    },
+    {
+      "fName": "Kabir",
+      "lName": "Sama'ila",
+      "doB": "1995-11-02T08:00:00.000Z",
+      "address": "Zone 4",
+      "id": 4
+    },
+    {
+      "fName": "Abba",
+      "lName": "Muhammad",
+      "doB": "1982-06-23T07:00:00.000Z",
+      "address": "Kofar Kaura ",
+      "id": 5
+    },
+    {
+      "fName": "Aminu",
+      "lName": "Sani",
+      "doB": "2022-04-07T07:00:00.000Z",
+      "address": "Maitama District",
+      "id": 6
+    },
+    {
+      "fName": "Ado",
+      "lName": "Gwanja",
+      "doB": "2001-06-22T07:00:00.000Z",
+      "address": "Kano",
+      "id": 7
+    }
+  ]
+}
